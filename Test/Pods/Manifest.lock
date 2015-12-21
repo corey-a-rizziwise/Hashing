@@ -1,0 +1,19 @@
+PODS:
+  - Sodium (0.1)
+
+DEPENDENCIES:
+  - Sodium (from `https://github.com/jedisct1/swift-sodium.git`)
+
+EXTERNAL SOURCES:
+  Sodium:
+    :git: https://github.com/jedisct1/swift-sodium.git
+
+CHECKOUT OPTIONS:
+  Sodium:
+    :commit: 73af0ac4a9e5b17b52d8912425507e4af91442bb
+    :git: https://github.com/jedisct1/swift-sodium.git
+
+SPEC CHECKSUMS:
+  Sodium: 5312975aa3e333467e9cfa62549752f150cd0fcd
+
+COCOAPODS: 0.39.0
