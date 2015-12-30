@@ -28,8 +28,10 @@ extension String {
     
 }
 
+let password = "ADD PASSWORD HERE"
+
 let sodium = Sodium()!
-let message = "b".dataUsingEncoding(NSUTF8StringEncoding)!
+let message = "BiGG\(password)WaNGG".dataUsingEncoding(NSUTF8StringEncoding)!
 let h = sodium.genericHash.hash(message)! as! NSMutableData
 var randomOne = ((String(sodium.randomBytes.buf(8)! as! NSMutableData).removeWhitespace()).removeLessThan()).removeGreaterThan()
 let randomTwo = ((String(sodium.randomBytes.buf(8)! as! NSMutableData).removeWhitespace()).removeLessThan()).removeGreaterThan()
