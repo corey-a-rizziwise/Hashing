@@ -28,7 +28,7 @@ extension String {
     
 }
 
-let password = "ADD PASSWORD HERE"
+let password = "b"
 
 let sodium = Sodium()!
 let message = "BiGG\(password)WaNGG".dataUsingEncoding(NSUTF8StringEncoding)!
